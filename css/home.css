@@ -1,0 +1,31 @@
+body {
+  background-color: aliceblue;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h1,
+h2 {
+  color: blueviolet;
+}
+
+a {
+  color: black;
+}
+
+.navigation {
+  padding: 100px;
+  background-image: url("../assets/images/home_1.avif");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.catalogue {
+  font-size: 25px;
+  background-color: cadetblue;
+  border-radius: 10px;
+  box-shadow: 6px 6px 0px rgba(0, 0, 0);
+  padding: 100px;
+}
+.catalogueGrid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}
