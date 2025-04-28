@@ -1,31 +1,37 @@
-body {
-  background-color: aliceblue;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+#main {
+  display: flex;
 }
-
-h1,
-h2 {
-  color: blueviolet;
+aside {
+  width: 30%;
+  padding: 0px 20px;
+  margin: 20px 20px;
 }
-
-a {
-  color: black;
+main {
+  width: 70%;
+  padding: 20px;
+  margin-left: 30px;
 }
-
-.navigation {
-  padding: 100px;
-  background-image: url("../assets/images/home_1.avif");
-  background-size: cover;
-  background-attachment: fixed;
+p {
+  text-align: justify;
 }
-.catalogue {
-  font-size: 25px;
-  background-color: cadetblue;
-  border-radius: 10px;
-  box-shadow: 6px 6px 0px rgba(0, 0, 0);
-  padding: 100px;
+.service {
+  display: flex;
 }
-.catalogueGrid {
+#section {
+  padding: 10px 25px;
+}
+#catalog {
   display: grid;
-  grid-template-columns: 200px 200px 200px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#catalog_img {
+  height: 150px;
+  width: 110px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+
+#border {
+  border-bottom: 3px #ab6a97 dashed;
+  border-left: 3px #981869 solid;
 }

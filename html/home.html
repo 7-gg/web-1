@@ -4,132 +4,165 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <title>Accueil - Sophie Fashion Atelier</title>
+    <title>Accueil - SFH</title>
+    <link rel="stylesheet" href="../css/nav.css" />
     <link rel="stylesheet" href="../css/home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="navigation">
-      <a href="home.html">Accueil</a>
-      <a href="">A propos</a>
-      <a href="catalogue.html">Catalogue</a>
-      <a href="">Services</a>
-      <a href="">Commander</a>
-      <a href="auth/register.html">Postuler</a>
-      <a href="">Contacts</a>
+    <header>
+      <a href="home.html">
+        <img id="img" src="../assets/images/logo.png" alt="Logo SFH" />
+      </a>
+      <nav>
+        <ul>
+          <li><a href="home.html">Accueil</a></li>
+          <li><a href="about.html">A propos</a></li>
+          <li><a href="catalog.html">Catalogue</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <img id="home_img" src="../assets/images/h8.avif" alt="Atelier" />
+    <div id="main">
+      <main>
+        <!-- A propos -->
+        <section>
+          <h1>Bienvenue dans l'univers raffiné de l'élégance.</h1>
+          <p>
+            Chez <strong>Sophie Fashion House</strong>, chaque création est une
+            ode à la beauté, au style et au savoir-faire. Nous vous invitons à
+            découvrir un espace où
+            <i>l'élégance intemporelle rencontre l'audace contemporaine</i>
+            . Laissez-vous séduire par des pièces uniques, confectionnées avec
+            passion pour sublimer chaque instant de votre vie.
+          </p>
+        </section>
+        <!-- Services -->
+        <section>
+          <h2>Nos services</h2>
+          <div class="service">
+            <p id="section">
+              <strong
+                ><a href="service.html#service1" id="border"
+                  >Confection sur mesure</a
+                ></strong
+              ><br /><br />
+              Notre maison de couture réalise des vêtements sur mesure, pensés
+              spécialement pour sublimer votre silhouette et refléter votre
+              personnalité, avec des finitions soignées et un savoir-faire
+              d'exception.
+            </p>
+            <p id="section">
+              <strong
+                ><a href="service.html#service2" id="border"
+                  >Broderie artisanale</a
+                ></strong
+              ><br />
+              <br />
+              Ajoutez une touche d'exception à vos tenues. Notre maison de
+              couture propose un service de broderie fine et personnalisée,
+              alliant tradition et créativité pour sublimer vos pièces avec
+              élégance et raffinement.
+            </p>
+          </div>
+          <div class="service">
+            <p id="section">
+              <strong
+                ><a href="service.html#service4" id="border"
+                  >Formation en couture</a
+                ></strong
+              ><br /><br />
+              Développez votre talent avec nos formations sur mesure. Que vous
+              soyez débutant ou passionné, notre maison de couture vous transmet
+              un savoir-faire d'excellence, pour maîtriser l'art de la couture
+              et exprimer toute votre créativité.
+            </p>
+            <p id="section">
+              <strong
+                ><a href="service.html#service3" id="border"
+                  >Mercerie haut de gamme</a
+                ></strong
+              ><br /><br />
+              Découvrez notre sélection raffinée d'articles de mercerie. Nous
+              vous proposons tissus, boutons, fils et accessoires de qualité,
+              choisis avec soin pour accompagner vos créations les plus
+              élégantes.
+            </p>
+          </div>
+        </section>
+        <!-- Commander -->
+        <section>
+          <h2>Passez commande</h2>
+          <p>
+            Vous rêvez d'une création unique, taillée selon vos envies ? Notre
+            équipe est à votre écoute pour donner vie à vos projets.
+            Contactez-nous dès aujourd'hui au <strong>+228 9009 0009</strong> et
+            laissez-nous sublimer votre style.
+          </p>
+        </section>
+      </main>
+      <aside>
+        <!-- Catalogue -->
+        <h2>Catalogue SFH</h2>
+        <div id="catalog">
+          <img id="catalog_img" src="../assets/catalog/c7.jpg" alt="" />
+          <img id="catalog_img" src="../assets/catalog/c6.jpg" alt="" />
+          <img id="catalog_img" src="../assets/catalog/c3.jpg" alt="" />
+          <img id="catalog_img" src="../assets/catalog/c4.jpg" alt="" />
+          <img id="catalog_img" src="../assets/catalog/c5.jpg" alt="" />
+          <img id="catalog_img" src="../assets/catalog/c8.jpg" alt="" />
+          <img id="catalog_img" src="../assets/catalog/c9.jpg" alt="" />
+          <img id="catalog_img" src="../assets/catalog/c11.jpg" alt="" />
+          <img id="catalog_img" src="../assets/catalog/c12.jpg" alt="" />
+        </div>
+        <!-- <button>Commander</button> -->
+        <!-- Postuler -->
+        <!-- <p style="padding-top: 20px; padding-bottom: 8px">
+          Vous maîtrisez l'art de la couture ou de la broderie ? Inscrivez-vous
+          chez SFH et intégrez notre réseau d'experts pour des opportunités de
+          missions adaptées à votre savoir-faire.
+        </p>
+        <button>Postuler</button> -->
+      </aside>
     </div>
-    <h1>Bienvenue dans l'univers raffiné de l'élégance.</h1>
-
-    <a href="../assets/images/home_3.jpg"
-      ><img
-        src="../assets/images/home_3_mini.jpg"
-        alt="Maison SFA"
-        title="Finition d'une commande"
-    /></a>
-
-    <p>
-      Chez Sophie Fashion Atelier, chaque création est une ode à la beauté, au
-      style et au savoir-faire.<br />
-      Nous vous invitons à découvrir un espace où l'élégance intemporelle
-      rencontre l'audace contemporaine. Laissez-vous séduire par des pièces
-      uniques, confectionnées avec passion pour sublimer chaque instant de votre
-      vie.
-    </p>
-
-    <h2 class="catalogueGrid"><a href="catalogue.html">Notre Catalogue</a></h2>
-    <a class="catalogue" href="catalogue.html#femme"> Femme</a><br />
-    <a class="catalogue" href="catalogue.html#enfants">Enfants</a><br />
-    <a class="catalogue" href="catalogue.html#robe">Robes</a><br />
-    <a class="catalogue" href="catalogue.html#pantalons">Pantalons</a><br />
-
-    <h2>Nos services</h2>
-    <a href="#couture-femme">Couture Femme</a><br />
-    <a href="#couture-flou">Couture Flou</a><br />
-    <a href="#divers">Sevices Divers</a><br />
-
-    <p>
-      Souhaitez-vous postuler chez SFA
-      <a href="auth/register.html" target="_blank">couturièr(e)</a>? ou
-      <a href="">brodeur</a>
-    </p>
-
-    <p>
-      Consulter notre <a href="contrat.pdf" target="_blank">contrat</a> de
-      prestation
-    </p>
-
-    <p>
-      Passez
-      <a href="mailto:tonib0989@gmail.com">commande</a>
-      chez Sophie Fashion Atelier
-    </p>
-
-    <h3 id="couture-femme">Couture Femme</h3>
-    <h4>Robes sur mesure</h4>
-    <p>
-      Création de robes élégantes et personnalisées, adaptées à toutes les
-      occasions : cérémonie, cocktail, mariage ou tenues du quotidien.
-    </p>
-    <h4>Ensembles chics</h4>
-    <p>
-      Conception d'ensembles élégants pour allier style et confort en toute
-      circonstance, du bureau aux grandes occasions.
-    </p>
-
-    <h3 id="couture-flou">Couture Flou</h3>
-    <h4>Vestes raffinées</h4>
-    <p>
-      Confection de vestes légères et sophistiquées, alliant confort, modernité
-      et élégance, pour sublimer chaque silhouette avec délicatesse.
-    </p>
-    <h4>Jupes vaporeuses</h4>
-    <p>
-      Création de jupes fluides et aériennes, mettant en valeur la grâce et la
-      féminité avec des matières nobles et des coupes modernes.
-    </p>
-
-    <h3 id="divers">Sevices Divers</h3>
-    <h4>Mercerie</h4>
-    <p>
-      Découvrez notre sélection raffinée d’articles de mercerie, où chaque
-      détail compte pour sublimer vos créations.
-    </p>
-    <ul>
-      <li>Fils de qualité,</li>
-      <li>boutons élégants,</li>
-      <li>rubans délicats,</li>
-      <li>dentelles précieuses,</li>
-      <li>fermetures et accessoires variés...</li>
-    </ul>
-    <p>
-      Chez <strong>Sophie Fashion Atelier</strong>, la mercerie devient une
-      source d'inspiration pour donner <mark>vie</mark> à vos plus belles
-      <em>idées</em>, avec un soin particulier apporté à la qualité et au style.
-    </p>
-    <h4>Pleinte</h4>
-    <h4>Surfillage</h4>
-    <h4>Vente de pagne</h4>
+    <footer>
+      <a href="home.html">
+        <img id="img" src="../assets/images/logo.png" alt="Logo SFH" />
+      </a>
+      <p><i>Offrez-vous l'élégance d'une création unique </i></p>
+      <div style="display: flex">
+        <a href="https://twitter.com/" target="_blank">
+          <img
+            class="icon"
+            src="../assets/icons/twitter.png"
+            alt="Twitter"
+            title="Twitter"
+          />
+        </a>
+        <a href="https://Instagram.com/" target="_blank">
+          <img
+            class="icon"
+            src="../assets/icons/instagram.png"
+            alt="Instagram"
+            title="Instagram"
+          />
+        </a>
+        <a href="https://tiktok.com/" target="_blank">
+          <img
+            class="icon"
+            src="../assets/icons/tiktok.avif"
+            alt="TikTok"
+            title="TikTok"
+          />
+        </a>
+      </div>
+    </footer>
   </body>
-  <footer>
-    <h3>Nos réseaux sociaux</h3>
-
-    <a href="https://twitter.com/" target="_blank">
-      <img
-        src="../assets/icons/twitter.png"
-        alt="Twitter"
-        title="Twitter"
-      /> </a
-    ><br />
-
-    <a href="https://Instagram.com/" target="_blank">
-      <img
-        src="../assets/icons/instagram.png"
-        alt="Instagram"
-        title="Instagram"
-      /> </a
-    ><br />
-
-    <a href="https://linkedIn.com/" target="_blank">
-      <img src="../assets/icons/.png" alt="LinkedIn" title="LinkedIn" /> </a
-    ><br />
-  </footer>
 </html>
