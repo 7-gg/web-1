@@ -12,6 +12,15 @@
         grid-template-columns: 200px 200px 200px;
         align-items: center;
       }
+      input,
+      select,
+      textarea {
+        margin-bottom: 25px;
+        padding-bottom: 10x;
+      }
+      label {
+        margin-bottom: 15px;
+      }
     </style>
   </head>
 
@@ -49,6 +58,36 @@
         <p>Adresse</p>
         <p>Lomé-Togo</p>
       </div>
+
+      <form action="post" action="">
+        <div>
+          <label for="">Objet du message</label>
+          <select name="" id="">
+            <option value="">Passer une commande</option>
+            <option value="">Postuler en tant que couturier</option>
+            <option value="">Postuler en tant que brodeur</option>
+            <option value=""></option>
+          </select>
+        </div>
+        <div>
+          <label for="name">Nom</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div>
+          <label for="mail">Email</label>
+          <input type="text" name="mail" id="mail" />
+        </div>
+        <div>
+          <label for="number">Numero</label>
+          <input type="text" name="number" id="number" />
+        </div>
+        <div>
+          <label for="ameliorer">Des conseils d'améliorations ?</label><br />
+          <textarea name="ameliorer" id="ameliorer"></textarea>
+        </div>
+
+        <button>Envoyer</button>
+      </form>
     </main>
     <footer>
       <a href="home.html">
