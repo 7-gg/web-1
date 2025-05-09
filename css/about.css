@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  padding: 0px 20px;
+}
+
+#about {
+  background-color: aliceblue;
+  flex: 0.5;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image {
+  flex: 0.7;
+}
+
+.image img {
+  object-fit: cover;
+}
+p,
+strong {
+  font-size: 1.3rem;
+}

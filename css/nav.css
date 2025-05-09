@@ -1,54 +1,50 @@
+/* Style de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
+  font-family: "Merriweather", sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 0.8rem 1rem;
+  position: relative;
+}
+.logo {
+  height: 70px;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 15px;
   margin: 0;
   padding: 0;
 }
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 20px;
-}
-#img {
-  height: 70px;
-}
-nav ul {
-  display: flex;
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-}
-nav ul li {
-  margin-left: 15px;
-}
-
-nav ul li a:hover {
-  background-color: blueviolet;
-  color: white;
-  border-radius: 5px;
-  padding: 5px;
-}
-
-a {
-  text-decoration: none;
+.menu li a {
   color: black;
-  font-weight: bold;
+  text-decoration: none;
 }
-strong {
-  color: blueviolet;
+.menu li a:hover {
+  background-color: rgb(219, 183, 213);
+  text-decoration: none;
+  padding: 7px;
+  border-radius: 20px;
 }
-
-.icon {
-  height: 15px;
-  width: 15px;
-  padding-left: 12px;
-}
-footer {
-  display: flex;
-  padding: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
-#home_img {
-  width: 100%;
-  height: 500px;
+@media (max-width: 768px) {
+  .logo {
+    height: 90px;
+  }
+  .menu {
+    flex-direction: column;
+    /* gap: 7px; */
+    align-items: flex-start;
+  }
+  .navbar {
+    flex-direction: column;
+  }
 }

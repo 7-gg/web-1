@@ -1,0 +1,15 @@
+main {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  align-items: center;
+}
+input,
+select,
+textarea {
+  margin-bottom: 25px;
+  padding-bottom: 10x;
+}
+label {
+  margin-bottom: 15px;
+}

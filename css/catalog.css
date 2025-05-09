@@ -1,0 +1,17 @@
+main {
+  margin: 0px 50px;
+  padding: 5px;
+}
+img {
+  margin-bottom: 5px;
+}
+#catalog {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+}
+#catalog_img {
+  height: 150px;
+  width: 110px;
+  margin-bottom: 16px;
+}
