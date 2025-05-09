@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+i {
+  color: blueviolet;
+}
 body {
   font-family: "Merriweather", sans-serif;
 }
@@ -12,7 +15,7 @@ body {
   justify-content: space-between;
   align-items: center;
   color: white;
-  padding: 0.8rem 1rem;
+  padding: 0px 20px;
   position: relative;
 }
 .logo {
@@ -22,8 +25,6 @@ body {
   list-style: none;
   display: flex;
   gap: 15px;
-  margin: 0;
-  padding: 0;
 }
 .menu li a {
   color: black;
@@ -35,13 +36,35 @@ body {
   padding: 7px;
   border-radius: 20px;
 }
+.footer {
+  margin: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+}
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo {
+  height: 50px;
+}
+.footer p {
+  font-size: 14px;
+}
+.footer-icon {
+  height: 15px;
+  margin: 0px 7px;
+}
+
 @media (max-width: 768px) {
   .logo {
-    height: 90px;
+    height: 100px;
   }
   .menu {
     flex-direction: column;
-    /* gap: 7px; */
     align-items: flex-start;
   }
   .navbar {

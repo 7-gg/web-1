@@ -22,4 +22,18 @@
 p,
 strong {
   font-size: 1.3rem;
+  margin: 20px 0px;
+}
+strong {
+  color: blueviolet;
+}
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+  .image {
+    width: 100%;
+    margin-top: 22px 0px;
+  }
 }

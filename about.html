@@ -5,21 +5,27 @@
     <title>A propos - SFH</title>
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/about.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
+    <!-- navigation -->
+    <header class="navbar">
       <a href="index.html">
-        <img id="img" src="assets/images/logo.png" alt="Logo SFH" />
+        <img class="logo" src="assets/images/logo.png" alt="Logo SFH" />
       </a>
-      <nav>
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="about.html">A propos</a></li>
-          <li><a href="catalog.html">Catalogue</a></li>
-          <li><a href="service.html">Services</a></li>
-          <li><a href="contact.html">Contacts</a></li>
-        </ul>
-      </nav>
+      <ul class="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="about.html">A propos</a></li>
+        <li><a href="catalog.html">Catalogue</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+      </ul>
     </header>
     <main class="main">
       <div class="image">
@@ -51,16 +57,16 @@
         </p>
       </div>
     </main>
-    <footer>
+    <!-- pied de page -->
+    <footer class="footer">
       <a href="index.html">
-        <img id="img" src="assets/images/logo.png" alt="Logo SFH" />
+        <img class="footer-logo" src="assets/images/logo.png" alt="Logo SFH" />
       </a>
       <p><i>Offrez-vous l'élégance d'une création unique </i></p>
-      <div></div>
-      <div style="display: flex">
+      <div class="footer-social">
         <a href="https://twitter.com/" target="_blank">
           <img
-            class="icon"
+            class="footer-icon"
             src="assets/icons/twitter.png"
             alt="Twitter"
             title="Twitter"
@@ -68,7 +74,7 @@
         </a>
         <a href="https://Instagram.com/" target="_blank">
           <img
-            class="icon"
+            class="footer-icon"
             src="assets/icons/instagram.png"
             alt="Instagram"
             title="Instagram"
@@ -76,7 +82,7 @@
         </a>
         <a href="https://tiktok.com/" target="_blank">
           <img
-            class="icon"
+            class="footer-icon"
             src="assets/icons/tiktok.avif"
             alt="TikTok"
             title="TikTok"
