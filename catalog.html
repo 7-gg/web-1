@@ -6,68 +6,277 @@
     <title>Catalogue - SFH</title>
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/catalog.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
+    <!-- navigation -->
+    <header class="navbar">
       <a href="index.html">
-        <img id="img" src="assets/images/logo.png" alt="Logo SFH" />
+        <img class="logo" src="assets/images/logo.png" alt="Logo SFH" />
       </a>
-      <nav>
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="about.html">A propos</a></li>
-          <li><a href="catalog.html">Catalogue</a></li>
-          <li><a href="service.html">Services</a></li>
-          <li><a href="contact.html">Contacts</a></li>
-        </ul>
-      </nav>
+      <ul class="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="about.html">A propos</a></li>
+        <li><a href="catalog.html">Catalogue</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+      </ul>
     </header>
-    <main>
-      <div id="catalog">
-        <img id="catalog_img" src="assets/catalog/c0.jpg" alt="" />
-        <img id="catalog_img" src="assets/catalog/c1.jpg" alt="" />
-        <img id="catalog_img" src="assets/catalog/c2.jpg" alt="" />
-        <img id="catalog_img" src="assets/catalog/c3.jpg" alt="" />
-        <img id="catalog_img" src="assets/catalog/c4.jpg" alt="" />
-        <img id="catalog_img" src="assets/catalog/c5.jpg" alt="" />
-        <img id="catalog_img" src="assets/catalog/c6.jpg" alt="" />
-        <img id="catalog_img" src="assets/catalog/c7.jpg" alt="" />
-        <img id="catalog_img" src="assets/catalog/c8.jpg" alt="" />
-        <img id="catalog_img" src="assets/catalog/c9.jpg" alt="" />
-        <img id="catalog_img" src="assets/catalog/c11.jpg" alt="" />
-        <img id="catalog_img" src="assets/catalog/c12.jpg" alt="" />
-        <img id="catalog_img" src="assets/service/b0.jpg" alt="" />
-        <img id="catalog_img" src="assets/service/b8.jpg" alt="" />
-        <img id="catalog_img" src="assets/service/b2.jpg" alt="" />
-        <img id="catalog_img" src="assets/service/b3.jpg" alt="" />
-        <img id="catalog_img" src="assets/service/b7.jpg" alt="" />
-        <img id="catalog_img" src="assets/service/b5.jpg" alt="" />
-        <img id="catalog_img" src="assets/service/b6.jpg" alt="" />
-        <img id="catalog_img" src="assets/service/b1.jpg" alt="" />
-        <img id="catalog_img" src="assets/service/b4.jpg" alt="" />
-        <img id="catalog_img" src="assets/service/c11.jpg" alt="" />
-        <img id="catalog_img" src="assets/service/b9.jpg" alt="" />
-        <img id="catalog_img" src="assets/service/c12.jpg" alt="" />
-        <img id="catalog_img" src="assets/service/c13.jpg" alt="" />
-        <img id="catalog_img" src="assets/service/c14.jpg" alt="" />
-        <img id="catalog_img" src="assets/service/c0.jpg" alt="" />
-        <img id="catalog_img" src="assets/service/c4.jpg" alt="" />
-        <img id="catalog_img" src="assets/service/c11.jpg" alt="" />
-        <img id="catalog_img" src="assets/service/c1.jpg" alt="" />
-        <img id="catalog_img" src="assets/service/c7.jpg" alt="" />
-        <img id="catalog_img" src="assets/service/c5.jpg" alt="" />
-        <img id="catalog_img" src="assets/service/c6.jpg" alt="" />
+    <!-- contenu -->
+    <main class="main">
+      <div class="catalog">
+        <img src="assets/service/c11.jpg" alt="" />
+        <a href="assets/service/c11.jpg">
+          <div class="overlay">Robe de gala</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/service/c1.jpg" alt="" />
+        <a href="assets/service/c1.jpg">
+          <div class="overlay">Tenue professionelle</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/catalog/c0.jpg" alt="" />
+        <a href="assets/catalog/c0.jpg">
+          <div class="overlay">Robe vintage</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/service/c5.jpg" alt="" />
+        <a href="assets/service/c5.jpg">
+          <div class="overlay">Robe de gala</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/service/c7.jpg" alt="" />
+        <a href="assets/service/c7.jpg">
+          <div class="overlay">Robe de mariée</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/service/c8.jpg" alt="" />
+        <a href="assets/service/c8.jpg">
+          <div class="overlay">Robe de mariée</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/service/c6.jpg" alt="" />
+        <a href="assets/service/c6.jpg">
+          <div class="overlay">Robe de gala</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/service/c9.jpg" alt="" />
+        <a href="assets/service/c9.jpg">
+          <div class="overlay">Robe de mariée</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/catalog/c1.jpg" alt="" />
+        <a href="assets/catalog/c1.jpg">
+          <div class="overlay">Robe de mariée</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/catalog/c5.jpg" alt="" />
+        <a href="assets/catalog/c5.jpg">
+          <div class="overlay">Robe de gala</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/catalog/c13.jpg" alt="" />
+        <a href="assets/catalog/c13.jpg">
+          <div class="overlay">Robe de gala</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/catalog/c14.jpg" alt="" />
+        <a href="assets/catalog/c14.jpg">
+          <div class="overlay">Robe de gala</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/catalog/c2.jpg" alt="" />
+        <a href="assets/catalog/c2.jpg">
+          <div class="overlay">Robe de soirée</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/catalog/c3.jpg" alt="" />
+        <a href="assets/catalog/c3.jpg">
+          <div class="overlay">Robe</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/catalog/c4.jpg" alt="" />
+        <a href="assets/catalog/c4.jpg">
+          <div class="overlay">Robe de gala</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/catalog/c6.jpg" alt="" />
+        <a href="assets/catalog/c6.jpg">
+          <div class="overlay">Robe</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/catalog/c8.jpg" alt="" />
+        <a href="assets/catalog/c8.jpg">
+          <div class="overlay">Robe de soirée</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/catalog/c7.jpg" alt="" />
+        <a href="assets/catalog/c7.jpg">
+          <div class="overlay">Robe de gala</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/catalog/c9.jpg" alt="" />
+        <a href="assets/catalog/c9.jpg">
+          <div class="overlay">Robe de soirée</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/catalog/c11.jpg" alt="" />
+        <a href="assets/catalog/c11.jpg">
+          <div class="overlay">Robe</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/catalog/c12.jpg" alt="" />
+        <a href="assets/catalog/c12.jpg">
+          <div class="overlay">Robe de soirée</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/service/c0.jpg" alt="" />
+        <a href="assets/service/c0.jpg">
+          <div class="overlay">Robe africaine</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/service/c4.jpg" alt="" />
+        <a href="assets/service/c4.jpg">
+          <div class="overlay">Robe africaine</div>
+        </a>
+      </div>
+
+      <div class="catalog">
+        <img src="assets/service/c15.jpg" alt="" />
+        <a href="assets/service/c15.jpg">
+          <div class="overlay">Robe africaine</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/service/c16.jpg" alt="" />
+        <a href="assets/service/c16.jpg">
+          <div class="overlay">Robe africaine</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/service/c17.jpg" alt="" />
+        <a href="assets/service/c17.jpg">
+          <div class="overlay">Robe africaine</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/service/c18.jpg" alt="" />
+        <a href="assets/service/c18.jpg">
+          <div class="overlay">Robe africaine</div>
+        </a>
+      </div>
+
+      <div class="catalog">
+        <img src="assets/service/c12.jpg" alt="" />
+        <a href="assets/service/c12.jpg">
+          <div class="overlay">Robe de plage</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/service/c13.jpg" alt="" />
+        <a href="assets/service/c13.jpg">
+          <div class="overlay">Robe de plage</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/service/c14.jpg" alt="" />
+        <a href="assets/service/c14.jpg">
+          <div class="overlay">Robe de plage</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/service/b0.jpg" alt="" />
+        <a href="assets/service/b0.jpg">
+          <div class="overlay">Broderie</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/service/b8.jpg" alt="" />
+        <a href="assets/service/b8.jpg">
+          <div class="overlay">Broderie</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/service/b2.jpg" alt="" />
+        <a href="assets/service/b2.jpg">
+          <div class="overlay">Broderie</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/service/b3.jpg" alt="" />
+        <a href="assets/service/b3.jpg">
+          <div class="overlay">Broderie</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/service/b7.jpg" alt="" />
+        <a href="assets/service/b7.jpg">
+          <div class="overlay">Broderie</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/service/b5.jpg" alt="" />
+        <a href="assets/service/b5.jpg">
+          <div class="overlay">Broderie</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/service/b6.jpg" alt="" />
+        <a href="assets/service/b6.jpg">
+          <div class="overlay">Broderie</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/service/b4.jpg" alt="" />
+        <a href="assets/service/b4.jpg">
+          <div class="overlay">Broderie</div>
+        </a>
+      </div>
+      <div class="catalog">
+        <img src="assets/service/b9.jpg" alt="" />
+        <a href="assets/service/b9.jpg">
+          <div class="overlay">Broderie</div>
+        </a>
       </div>
     </main>
-    <footer>
+    <!-- pied de page -->
+    <footer class="footer">
       <a href="index.html">
-        <img id="img" src="assets/images/logo.png" alt="Logo SFH" />
+        <img class="footer-logo" src="assets/images/logo.png" alt="Logo SFH" />
       </a>
       <p><i>Offrez-vous l'élégance d'une création unique </i></p>
-      <div style="display: flex">
+      <div class="footer-social">
         <a href="https://twitter.com/" target="_blank">
           <img
-            class="icon"
+            class="footer-icon"
             src="assets/icons/twitter.png"
             alt="Twitter"
             title="Twitter"
@@ -75,7 +284,7 @@
         </a>
         <a href="https://Instagram.com/" target="_blank">
           <img
-            class="icon"
+            class="footer-icon"
             src="assets/icons/instagram.png"
             alt="Instagram"
             title="Instagram"
@@ -83,7 +292,7 @@
         </a>
         <a href="https://tiktok.com/" target="_blank">
           <img
-            class="icon"
+            class="footer-icon"
             src="assets/icons/tiktok.avif"
             alt="TikTok"
             title="TikTok"

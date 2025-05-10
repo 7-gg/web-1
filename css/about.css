@@ -1,39 +1,66 @@
+h1 {
+  margin-bottom: 10px;
+}
+h2 {
+  margin: 10px 0px;
+}
 .main {
   display: flex;
   padding: 0px 20px;
 }
-
-#about {
+.about {
   background-color: aliceblue;
-  flex: 0.5;
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
-
-.image {
-  flex: 0.7;
-}
-
 .image img {
   object-fit: cover;
 }
 p,
 strong {
-  font-size: 1.3rem;
-  margin: 20px 0px;
+  font-size: 16px;
+  margin: 10px 0px;
 }
 strong {
+  font-size: 18px;
   color: blueviolet;
+}
+.team-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.team-table th,
+.team-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.team-table thead {
+  background-color: rgb(242, 232, 240);
 }
 
 @media (max-width: 768px) {
   .main {
     flex-direction: column;
+    padding: 0px;
+    /* width: 100px; */
   }
   .image {
+    margin-top: 25px;
+  }
+  .image,
+  .about {
     width: 100%;
-    margin-top: 22px 0px;
+    box-sizing: border-box; /* évite que le padding dépasse */
+  }
+  .image img {
+    width: 100%;
+    height: auto;
+    display: block; /* évite les espaces blancs indésirables */
   }
 }
