@@ -1,8 +1,4 @@
 .main {
-  /* margin: 40px 20px;
-  align-items: center;
-  justify-content: center; */
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center; /* centre horizontalement les catalogues */

@@ -1,12 +1,7 @@
-h1 {
-  margin-bottom: 10px;
-}
-h2 {
-  margin: 10px 0px;
-}
 .main {
   display: flex;
   padding: 0px 20px;
+  margin: 0px 20px;
 }
 .about {
   background-color: aliceblue;
@@ -15,6 +10,9 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.about h2 {
+  margin-top: 15px;
 }
 .image img {
   object-fit: cover;
@@ -28,6 +26,7 @@ strong {
   font-size: 18px;
   color: blueviolet;
 }
+/* tableau */
 .team-table {
   width: 100%;
   border-collapse: collapse;
@@ -48,10 +47,6 @@ strong {
   .main {
     flex-direction: column;
     padding: 0px;
-    /* width: 100px; */
-  }
-  .image {
-    margin-top: 25px;
   }
   .image,
   .about {

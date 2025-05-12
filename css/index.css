@@ -1,16 +1,5 @@
 .main {
-  margin: 20px 0px;
-}
-.main a {
-  text-decoration: none;
-  color: black;
-}
-.main p {
-  margin: 20px 0px;
-}
-.main h1,
-h2 {
-  margin-bottom: 15px;
+  margin: 40px 20px;
 }
 .banner img {
   margin-bottom: 10px;
@@ -77,44 +66,4 @@ h2 {
   .gallery img {
     height: 250px;
   }
-}
-
-/* ---------------- */
-
-.contact-form {
-  margin: 2rem auto;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  padding: 2rem;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  background-color: #f9f9f9;
-}
-
-.contact-form label {
-  font-weight: bold;
-}
-
-.contact-form input,
-.contact-form textarea {
-  padding: 0.7rem;
-  font-size: 1rem;
-  border: 1px solid #aaa;
-  border-radius: 4px;
-}
-
-.contact-form button {
-  padding: 0.8rem;
-  font-size: 1rem;
-  background-color: blueviolet;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.contact-form button:hover {
-  background-color: rgb(219, 183, 213);
-  color: black;
 }
